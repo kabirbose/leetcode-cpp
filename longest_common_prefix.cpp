@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-std::string longestPrefix(std::vector<std::string>& strs) {
+std::string longest_common_prefix(std::vector<std::string>& strs) {
     if (strs.empty()) return "";
 
     std::string substr = strs[0];
@@ -19,6 +19,8 @@ std::string longestPrefix(std::vector<std::string>& strs) {
 int main() {
     std::vector<std::string> strs = {"flower", "flow", "flight"};
 
-    std::string prefix = longestPrefix(strs);
-    std::cout << prefix << "\n";  // Output: "fl"
+    std::string prefix = longest_common_prefix(strs);
+    std::cout << prefix << "\n";
+
+    return 0;
 }
