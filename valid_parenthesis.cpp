@@ -14,13 +14,14 @@ bool isValid(std::string s) {
             }
             stack.pop();
         }
+
     }
 
     return stack.empty();
 }
 
 int main() {
-    std::string s = "(]";
+    std::string s = "([])";
     bool result = isValid(s);
     std::cout << result << '\n';
     return 0;
