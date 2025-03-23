@@ -1,1 +1,1 @@
-Solving Leetcode in C++ and saving my solutions for future reference.
+Solving LeetCode in C++ and saving my solutions for future reference.
